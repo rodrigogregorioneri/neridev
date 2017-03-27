@@ -1,0 +1,107 @@
+/*
+* 
+* @author Jamilton Damasceno
+* @version 0.1
+*/
+
+/* ========================= layout ======================== */
+
+/* -- Barra de navegação -- */
+body{
+	background-color: teal;
+
+
+	
+}
+
+/* Scroll personalizado*/
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: black;
+}
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+
+
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;	
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #9bf0e1;
+}
+
+
+.green{
+	color: aqua;
+}
+
+.yellow{
+	color: gainsboro;
+}
+/* ========================= Tipografia ======================== */
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("https://scontent-gru2-2.xx.fbcdn.net/v/t1.0-9/11110180_940810379285588_4135421832504983173_n.jpg?oh=7598a52fdd0bc5e2ba31482e1281dccb&oe=593725CD");
+	width: 100%;
+    /* Full height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto{
+	height: 300px;
+}
+
+.foto_perfil{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.foto_perfil img{
+	width: 250px;
+	border-radius: 50%;
+	border: solid saddlebrown 5px;
+}
+
+h2{
+	    margin-top: 44px !important;
+}
